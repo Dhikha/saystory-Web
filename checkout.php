@@ -106,12 +106,10 @@ Terima kasih :)
         $belanja .=  '- '.$produk[$key]['namaproduk'].' sebanyak: '.$value;
         $jumlah = $jumlah + ($produk[$key]['harga']*$value);
     }
-    $belanja .= '
-    
-TOTAL : '.number_format($jumlah);
+    $belanja .= 'TOTAL : '.number_format($jumlah);
 
     $pesan = str_replace('[daftarbelanja]', $belanja, $pesan);
-    $url = 'https://wa.me/6282233777084?text='.rawurlencode($pesan);
+    $url = 'https://wa.me/6281466788240?text='.rawurlencode($pesan);
     unset($_SESSION['chart']);
     header('Location:'.$url);
 }
@@ -178,9 +176,9 @@ TOTAL : '.number_format($jumlah);
             <div class="container">
                 <a
                     class="navbar-brand js-scroll-trigger"
-                    href="http://localhost/home/"
+                    href="http://localhost/home/afterlogin.php"
                 >
-                    <h2>Say Story's Shop</h2>
+                <h2 style="margin-left: -22px;">Say Story's Shop</h2>
                 </a>
                 <button
                     class="navbar-toggler navbar-toggler-right"
@@ -195,50 +193,63 @@ TOTAL : '.number_format($jumlah);
                     <i class="fas fa-bars ml-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
+                    <ul class="navbar-nav text-uppercase ml-auto" style="font-weight: 550;">
                         <li class="nav-item">
                             <a
                                 class="nav-link js-scroll-trigger"
-                                href="http://localhost/home/"
+                                href="http://localhost/home/afterlogin.php"
+                                style="font-size: 18px; margin-top:7px"
                                 >Best Seller</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link js-scroll-trigger"
-                                href="http://localhost/home/"
+                                href="http://localhost/home/afterlogin.php"
+                                style="font-size: 18px; margin-top:7px"
                                 >Menu</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link js-scroll-trigger"
-                                href="http://localhost/home/"
+                                href="http://localhost/home/afterlogin.php"
+                                style="font-size: 18px; margin-top:7px"
                                 >About</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link js-scroll-trigger"
-                                href="http://localhost/home/"
+                                href="http://localhost/home/afterlogin.php"
+                                style="font-size: 18px; margin-top:7px"
                                 >Team</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link js-scroll-trigger"
-                                href="http://localhost/home/"
+                                href="http://localhost/home/afterlogin.php"
+                                style="font-size: 18px; margin-top:7px"
                                 >Contact</a
                             >
                         </li>
                         <li class="nav-item">
                             <a href="http://localhost/home/" class="demo-4" onclick="return confirm('Yakin ingin logout?')">
-                                <span>
+                                <span style="margin-top: 10px;">
                                     <span>Logout</span>
                                     <span>Sure?</span>
                                     <span></span>
                                 </span>
                             </a>
+                        </li>
+                        <li class="nav-item">
+                        <a
+                        type="button"
+                        style="color:#fed136; text-transform:none; margin-right:-100px; margin-top:15px; font-size:18px; margin-left:17px; cursor:default"
+                        >dikaadi
+                        <img src="user12.png" alt="akun" style="width:23px; margin-left:5px; margin-top:-5px">
+                        </a>
                         </li>
                     </ul>
                 </div>
@@ -285,7 +296,7 @@ TOTAL : '.number_format($jumlah);
                                             }
                                         }
 
-                                        echo '<table class="table" style="margin-top:-110px;">
+                                        echo '<table class="table" style="margin-top:-113px;">
                                         <thead>
                                         <tr><th style="padding-right:10px;">Nama Produk</th>
                                         <th style="padding-right:140px;">Jumlah</th>

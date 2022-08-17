@@ -8,7 +8,7 @@
         />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Say Story's Shop</title>
+        <title>Say Story</title>
         <link rel="icon" type="image/x-icon" href="assets/img/logoutama.png" />
         <!-- Font Awesome icons (free version)-->
         <script
@@ -47,7 +47,7 @@
             rel="stylesheet"
         />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/style2.css" rel="stylesheet" />
         <link href="cobahover.css" rel="stylesheet" />
         <link href="css/parallax.css" rel="stylesheet" />
 
@@ -55,9 +55,12 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
+            <div class="container" style="display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                    <h2 style="margin-left: -22px;">Say Story's Shop</h2>
+                    <h2 style="margin-left: -22px;">Say Story</h2>
                 </a>
                 <button
                     class="navbar-toggler navbar-toggler-right"
@@ -884,7 +887,7 @@
                                 style="color:#fed136"
                                 ></i>
                                 <h1 class="display-4" style="font-size: 36px;">Nesya Regina</h1>
-                                <p class="lead">Suka banget sama Redvelvet <br> Choco, rasa red velvetnya <br> enak poll ditambah coklat lumernya yang lembut membuat saya <br> pengen beli lagi, hehehe. </p>
+                                <p class="lead">Suka banget sama Redvelvet <br> Choco, rasa red velvetnya <br> enak poll ditambah coklat <br> lumernya yang lembut bikin <br> pengen beli lagi, hehehe. </p>
                             </div>
                             <div class="col-sm-4"> 
                                 <img
@@ -918,7 +921,7 @@
                                 style="color:#fed136"
                                 ></i>
                                 <h1 class="display-4" style="font-size: 36px;">Larasatty</h1>
-                                <p class="lead">Squash Strawberry Orange rasa jeruk dan strawberry nya seger banget, ada campuran soda dan juga susu didalemnya, enak poll jadi <br> pengen beli lagi. </p>
+                                <p class="lead">Squash rasa strawberry dan <br> jeruknya seger banget, <br> ada campuran soda nya dan <br> juga susu didalemnya, mantep <br> deh pokoknya. </p>
                             </div>
                         </div>
                         <div class="row" style="margin-top: 40px;">
@@ -954,7 +957,7 @@
                                 style="color:#fed136"
                                 ></i>
                                 <h1 class="display-4" style="font-size: 36px;">Chintya Aurel</h1>
-                                <p class="lead">Kemarin nyoba beli Signature Creamy Mango ternyata rasanya enak poll, rasa mangganya kerasa banget.. <br>Rasa cocok dengan harganya. <br> Say Story emang terbaik :) </p>
+                                <p class="lead">Kemarin nyoba beli Signature Creamy Mango ternyata rasa mangganya enak banget dan juga lembut di mulut. Cocok banget diminum <br> pas lagi santai.<br></p>
                             </div>
                             <div class="col-sm-4" style="display: block; margin:auto; margin-top:33px">
                                 <img
@@ -988,7 +991,7 @@
                                 style="color:#fed136"
                                 ></i>
                                 <h1 class="display-4" style="font-size: 36px;">Nissa Uswatun</h1>
-                                <p class="lead">Signature Smoothies rasa leci dan strawberry nya lembut banget di mulut, ada pudding juga didalemnya.. <br> besuk beli lagi ah.</p>
+                                <p class="lead">Signature Smoothies rasa leci dan strawberry nya lembut banget kayak aku, wkwkw. Ada pudding <br> juga didalemnya, <br> besuk beli lagi ah..</p>
                             </div>
                         </div>
                     </div>
@@ -1316,6 +1319,7 @@
                 </div>
             </div>
         </footer>
+        
         <!-- Portfolio Modals-->
         <!-- Modal 01-->
         <div
@@ -2426,7 +2430,7 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/materilize.min.js"></script>
         <script type="text/javascript">
                 var xx = document.getElementById("text");
                 var small = document.getElementById("text");
